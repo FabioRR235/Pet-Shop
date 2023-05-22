@@ -39,10 +39,12 @@ align-items: center;
     color: #ffffff;
     margin: 25px;
     border-radius: 10px;
+    
 }
 .cont h1{
     padding: 15px;
     font-size: 35px;
+    text-decoration: underline;
 }
 .cont p{
     padding: 15px;

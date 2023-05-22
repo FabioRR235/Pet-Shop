@@ -34,11 +34,13 @@ align-items: center;
   width: 350px;
 }
 /*Texto-1*/
+
 .text{
     background-color: #60a6d8;
     color: #ffffff;
     margin: 25px;
     border-radius: 10px;
+   
 }
 .text h1{
     font-size: 30px;
@@ -55,71 +57,35 @@ align-items: center;
     margin: 15px;
     border: 3px solid white;
 }
-/*Botão*/
+/*botao*/
 .botao{
-    margin: 15px;
     display: flex;
     justify-content: center;
-    
-}
-button {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    border-radius: 5px;
-    background: #60a6d8;
-    font-family: "Montserrat", sans-serif;
-    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
+    padding: 15px;
+  }
+  .but {
+    padding: 1.3em 3em;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
     border: none;
-   }
-   
-   button:after {
-    content: " ";
-    width: 0%;
-    height: 100%;
-    background: #4d86af;
-    position: absolute;
-    transition: all 0.4s ease-in-out;
-    right: 0;
-   }
-   
-   button:hover::after {
-    right: auto;
-    left: 0;
-    width: 100%;
-   }
-   
-   button span {
-    text-align: center;
-    text-decoration: none;
-    width: 100%;
-    padding: 18px 25px;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .but:hover {
+    background-color: #449ddd;
+    box-shadow: 0px 15px 20px rgba(41, 89, 202, 0.9);
     color: #fff;
-    font-size: 1.125em;
-    font-weight: 700;
-    letter-spacing: 0.3em;
-    z-index: 20;
-    transition: all 0.3s ease-in-out;
-   }
-   
-   button:hover span {
-    color: #ffffff;
-    animation: scaleUp 0.3s ease-in-out;
-   }
-   
-   @keyframes scaleUp {
-    0% {
-     transform: scale(1);
-    }
-   
-    50% {
-     transform: scale(0.95);
-    }
-   
-    100% {
-     transform: scale(1);
-    }
-   }
+    transform: translateY(-7px);
+  }
+  
+  .but:active {
+    transform: translateY(-1px);
+  }
