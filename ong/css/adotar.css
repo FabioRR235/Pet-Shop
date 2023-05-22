@@ -1,0 +1,36 @@
+body{
+    background-image: url("bg.svg");
+    background-color: white;
+    
+}
+
+/*Navbar*/
+.navbar{
+    align-items: baseline;
+}
+  .logo{
+    color: #ffffff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255 255 255 / 100%);
+  }
+  .navbar-light .navbar-nav .nav-link:hover{
+    transition: ease-out 0.3s;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: underline;
+  }
+a.nav-link{
+font-size: 25px;
+display: flex;
+align-items: center;
+
+}
+.nav-item{
+    color: #ffffff;
+}
+.dropdown-menu.show {
+  display: block;
+  font-size: 20px;
+  width: 350px;
+}
+/*Conteudo*/
